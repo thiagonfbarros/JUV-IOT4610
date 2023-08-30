@@ -56,13 +56,14 @@ a:hover {
     background-color: #ec850b;
     color: #fff;
     padding: 10px 20px;
-    border: none;
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .btn:hover {
     background-color: #fbaa49;
+    color: #fff;
 }
 
 /* Estilos para as seções */
@@ -80,6 +81,7 @@ footer {
     padding: 20px 0;
     background-color: #00261c;
     color: #fff;
+    font-size: 14px;
 }
 
 /* Estilos específicos para a seção de herói */
@@ -110,10 +112,6 @@ footer {
 
 /* Estilos específicos para a seção de contato */
 #contact a.btn {
-    background-color: #ec850b;
-    color: #fff;
-    padding: 12px 25px;
-    border-radius: 30px;
     font-weight: bold;
 }
 
