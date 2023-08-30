@@ -17,21 +17,92 @@ body {
 /* Estilos para a navegação */
 nav {
     background-color: #00261c;
-    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-nav ul {
+.logo{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.logo img{
+    height: 90px;
+}
+
+.nav-itens {
     list-style: none;
     display: flex;
-    justify-content: center;
 }
 
-nav a {
+.nav-itens>li{
+    padding-left: 20px;
+}
+
+.nav-itens>li>a{
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    transition: 0.3s;
+
+ }
+
+.nav-itens>li>a:hover{
+    color: #fbaa49;
+
+ }
+
+
+button{
+    background: none;
+    border: none;
 }
+
+.login {
+    padding: 10px 20px;
+    background: none;
+    
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;    
+
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.login:hover{
+    color: #fbaa49;
+    transition: 0.3s ;
+}
+
+.cadastro{
+    padding: 10px 20px;
+    background-color: #ec850b;
+    
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cadastro:hover{
+    background-color: #fbaa49;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+main{
+    width:1000 px;
+    margin: auto;
+}
+
 
 /* Estilos para os cabeçalhos */
 h1, h2, h3, h4 {
@@ -103,6 +174,12 @@ footer {
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+/*Estilo específico para whatis*/
+#whatis {
+    text-align: center;
+}
+
 
 /* Estilos específicos para a lista de serviços */
 #services ul {
