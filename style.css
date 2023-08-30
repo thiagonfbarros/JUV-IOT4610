@@ -1,3 +1,125 @@
-*{
-    
+@charset "UTF-8";
+
+/* Reset de estilos básicos */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Estilos para a navegação */
+nav {
+    background-color: #00261c;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Estilos para os cabeçalhos */
+h1, h2, h3, h4 {
+    color: #00261c;
+    margin-bottom: 10px;
+}
+
+/* Estilos para os links */
+a {
+    color: #ec850b;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #fbaa49;
+}
+
+/* Estilos para os botões */
+.btn {
+    display: inline-block;
+    background-color: #ec850b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #fbaa49;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #00261c;
+    color: #fff;
+}
+
+/* Estilos específicos para a seção de herói */
+#hero {
+    background-image: url('hero-image.jpg'); /* Substitua pelo caminho da imagem */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos para a lista de serviços */
+#services ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Estilos específicos para a seção de contato */
+#contact a.btn {
+    background-color: #ec850b;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Estilos para os títulos dos métodos de registro */
+#about h4 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ec850b;
 }
