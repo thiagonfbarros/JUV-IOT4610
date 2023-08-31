@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,87 +13,127 @@
 
 <body>
 
-    <nav>
+    <header class="cabecalho">
             
-        <div class="logo">
-            <a href="index.html"><img src="imgs/logo-full.png" alt="logo do site">Biotec</a>
+        <div class="cabecalho-imagem">
+            <a href="index.html"><img src="imgs/logo-full.png" alt="logo do site"></a>
+            <p>Biotec</p>
         </div>
         
+        <nav class="cabecalho-menu">
+            <a href="#about" class="cabecalho-menu-item">Sobre nós</a>
+            <a href="#services" class="cabecalho-menu-item">Serviços</a>
+            <a href="#contact" class="cabecalho-menu-item">Contato</a>
+            <a href="https://www.google.com.br" class="cabecalho-menu-item">Suporte</a>
+        </nav>
+
+        <!--
         <div class="links">
-            <ul class="nav-itens">
+            <ul class="header-itens">
                 <li><a href="#about">Sobre nós</a></li>
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#contact">Contato</a></li>
                 <li><a href="https://www.google.com.br">Suporte</a></li>
             </ul>
         </div>
-        <div class="nav-btn">
-            <button><a href="#" class="login">Login</a></button>
-            <button><a href="#" class="cadastro">Cadastro</a></button>
+        -->
+
+        <div class="cadastro">
+            <button><a href="#" class="cadastro-login">Login</a></button>
+            <button><a href="#" class="cadastro-cadastro">Cadastro</a></button>
         </div>
 
-    
-    </nav>
+    </header>
 
-    <!--seção para apresentação principal do site-->
-    <section id="hero">
-        <h1>Biotec - Sistemas de Segurança Biométrica</h1>
-        <p>Protegendo Instituições de Ensino com Tecnologia Avançada</p>
-        <a href="#contact" class="btn">Solicite uma Consultoria</a>
-    </section>
+    <main class="conteudo">
     
-    <main>
+        <!--seção para apresentação principal do site-->
+        <section class="conteudo-principal">
+            
+            <div class="conteudo-principal-escrito">
+                
+                <h1 class="conteudo-principal-escrito-titulo">Biotec - Sistemas de Segurança Biométrica</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo"">Protegendo Instituições de Ensino com Tecnologia Avançada</h2>
+                <button class="conteudo-principal-escrito-botao">Solicite uma Consultoria</button>
+            
+            </div>
+            
+            <img src="" alt="" class="conteudo-principal-imagem">
+        
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">O que fazemos?</h3>
+            <p class="conteudo-secundario-paragrafo">A Biotec é a principal autoridade em <strong>sistemas de segurança biométrica</strong> especializados no monitoramento da presença e pontualidade de alunos em instituições de ensino. Nossa abordagem <strong>inovadora</strong>, conhecida como "bio tec", revolucionou a forma como escolas e universidades administram a frequência dos alunos.</p>
+        </section>
+    
+    
         <!--seção Sobre o site-->
-        <section id="about">
-            <h2>Sobre Nós</h2>
-            <p>A Biotec é a principal autoridade em sistemas de segurança biométrica especializados no monitoramento da presença e pontualidade de alunos em instituições de ensino. Nossa abordagem inovadora, conhecida como "bio tec", revolucionou a forma como escolas e universidades administram a frequência dos alunos.</p>
+        <section id="about" class="conteudo-sobre">
+            
+            <h3 class="conteudo-sobre-titulo">Processo da Biotec para Controle de Frequência</h3>
+            <p class="conteudo-sobre-paragrafo">O "bio tec" simplifica o registro de entrada e saída dos estudantes, proporcionando um ambiente mais seguro e eficiente. Aqui está como funciona:</p>
         
-            <h3>Processo da Biotec para Controle de Frequência</h3>
-            <p>O "bio tec" simplifica o registro de entrada e saída dos estudantes, proporcionando um ambiente mais seguro e eficiente. Aqui está como funciona:</p>
+            <h4 class="conteudo-sobre-subtitulo">Identificação do Aluno</h4>
+            <p class="conteudo-sobre-paragrafo">Cada aluno é fornecido com um meio de identificação único, como um crachá, um cartão personalizado ou um número de identificação pessoal. Isso garante que cada registro seja preciso e individualizado.</p>
         
-            <h4>Identificação do Aluno</h4>
-            <p>Cada aluno é fornecido com um meio de identificação único, como um crachá, um cartão personalizado ou um número de identificação pessoal. Isso garante que cada registro seja preciso e individualizado.</p>
+            <h4 class="conteudo-sobre-subtitulo">Registro de Entrada</h4>
+            <p class="conteudo-sobre-paragrafo">Ao chegar na instituição, o aluno utiliza seu meio de identificação único em um terminal de registro estrategicamente posicionado na entrada. Esse processo rápido e eficiente permite que o aluno registre sua entrada de maneira conveniente.</p>
         
-            <h4>Registro de Entrada</h4>
-            <p>Ao chegar na instituição, o aluno utiliza seu meio de identificação único em um terminal de registro estrategicamente posicionado na entrada. Esse processo rápido e eficiente permite que o aluno registre sua entrada de maneira conveniente.</p>
+            <h4 class="conteudo-sobre-subtitulo">Métodos de Registro</h4>
+            <p class="conteudo-sobre-paragrafo">Nossa experiência está na aplicação de diferentes métodos para o registro de entrada:</p>
+            
+            <div class="conteudo-sobre-flex">
+                
+                <div class="conteudo-sobre-flex-item">
+                    <h5 class="conteudo-sobre-flex-item-titulo"><strong>Biometria</strong></h5>
+                    <p class="conteudo-sobre-flex-item-paragrafo">Nossos sistemas avançados utilizam tecnologia de reconhecimento facial e outras técnicas biométricas para garantir a precisão e segurança do registro.</p>
+                </div>
+                
+                <div class="conteudo-sobre-flex-item">
+                    <h5 class="conteudo-sobre-flex-item-titulo"><strong>Website</strong></h5>
+                    <p class="conteudo-sobre-flex-item-paragrafo">Oferecemos aos alunos a conveniência de verificar suas frequências por meio de nosso site intuitivo, proporcionando um canal adicional de interação.</p>
+                </div>
+            
+            </div>
         
-            <h4>Métodos de Registro</h4>
-            <p>Nossa experiência está na aplicação de diferentes métodos para o registro de entrada:</p>
-            <ul>
-                <li><strong>Biometria:</strong> Nossos sistemas avançados utilizam tecnologia de reconhecimento facial e outras técnicas biométricas para garantir a precisão e segurança do registro.</li>
-                <li><strong>Website:</strong> Oferecemos aos alunos a conveniência de verificar suas frequências por meio de nosso site intuitivo, proporcionando um canal adicional de interação.</li>
-            </ul>
+            <h4 class="conteudo-sobre-subtitulo">Registro de Saída</h4>
+            <p class="conteudo-sobre-paragrafo">No final das aulas ou do dia escolar, o aluno repete o processo para registrar sua saída, garantindo que cada movimento seja rastreado e registrado.</p>
         
-            <h4>Registro de Saída</h4>
-            <p>No final das aulas ou do dia escolar, o aluno repete o processo para registrar sua saída, garantindo que cada movimento seja rastreado e registrado.</p>
-        
-            <p>Na Biotec, estamos comprometidos em fornecer soluções de segurança inovadoras e personalizadas para instituições de ensino em todo o Brasil. Nossa missão é criar um ambiente educacional mais seguro, onde a presença dos alunos seja gerenciada de maneira eficiente e precisa, contribuindo para um melhor aproveitamento acadêmico.</p>
+            <p class="conteudo-sobre-paragrafo">Na Biotec, estamos comprometidos em fornecer soluções de segurança inovadoras e personalizadas para instituições de ensino em todo o Brasil. Nossa missão é criar um ambiente educacional mais seguro, onde a presença dos alunos seja gerenciada de maneira eficiente e precisa, contribuindo para um melhor aproveitamento acadêmico.</p>
         </section>
         
         <!--Seção sobre os serviços prestados-->
-        <section id="services">
-            <h2>Serviços</h2>
-            <ul>
-                <li>Sistemas de Reconhecimento Facial</li>
-                <li>Controle de Acesso Biométrico</li>
-                <li>Monitoramento de Ambientes</li>
-                <li>Integração com Sistemas de Gestão Escolar</li>
+        <section id="services" class="conteudo-servicos">
+            <h2 class="conteudo-servicos-titulo">Serviços</h2>
+            <ul class="conteudo-servicos-lista">
+                <li class="conteudo-servicos-lista-item">Sistemas de Reconhecimento Facial</li>
+                <li class="conteudo-servicos-lista-item">Controle de Acesso Biométrico</li>
+                <li class="conteudo-servicos-lista-item">Monitoramento de Ambientes</li>
+                <li class="conteudo-servicos-lista-item">Integração com Sistemas de Gestão Escolar</li>
             </ul>
         </section>
-        <section id="whatis">
+
+        <section class="conteudo-saibamais">
+            <button class="conteudo-saibamais-botao">Saiba mais sobre Segurança Biométrica</button>
+
+            <!--
             <a href="seguranca-bio.html" class="btn">Saiba mais sobre Segurança Biométrica</a>
+            -->
+
         </section>
         
         <!--Seção para entrar em contato por e-mail-->
-        <section id="contact">
-            <h2>Entre em Contato</h2>
-            <p>Estamos prontos para ajudar a implementar soluções de segurança biométrica na sua instituição de ensino. Entre em contato para uma consultoria personalizada.</p>
-            <a href="mailto:contato@biotecseguranca.com" class="btn">Enviar Email</a>
+        <section id="contact" class="contato">
+            <h2 class="contato-titulo">Entre em Contato</h2>
+            <p class="contato-paragrafo">Estamos prontos para ajudar a implementar soluções de segurança biométrica na sua instituição de ensino. Entre em contato para uma consultoria personalizada.</p>
+            <button class="contato-botao"><a href="mailto:contato@biotecseguranca.com">Enviar e-mail</a></button>
+
         </section>
     </main>
     
-    <footer>
-        <p>&copy; 2023 Biotec - Sistemas de Segurança Biométrica</p>
+    <footer class="rodape">
+        <p class="rodape-paragrafo">&copy; 2023 Biotec - Sistemas de Segurança Biométrica</p>
     </footer>
 </body>
 </html>
