@@ -178,7 +178,125 @@ background-color: #00261c;
 .conteudo {
     width: 1000px;
     margin: auto;
+    font-family: 'Sarala', sans-serif;
+    font-size: 110%;
 }
+.conteudo-secundario {
+    margin-bottom: 50px;
+}
+    .conteudo-secundario-titulo {
+        color: #ec850b;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .conteudo-secundario-paragrafo{
+        color: #00261c;
+    }
+
+.conteudo-sobre{
+    margin-bottom: 50px;
+}
+    .conteudo-sobre-titulo{
+        text-align: center;
+        color: #fff;
+        margin-bottom: 20px;
+        background-color: #ec850b;
+        border-radius: 20px;
+    }
+        .conteudo-sobre-subtitulo{
+            color: #ec850b;
+        }
+        .conteudo-sobre-paragrafo{
+            margin-bottom: 20px;
+        }
+    .conteudo-sobre-flex{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        gap: 50px;
+    }
+        .conteudo-sobre-flex-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #FBAA49;
+            border-radius: 20px;
+        }
+            .conteudo-sobre-flex-item-titulo{
+                font-size: x-large;
+                color: #fff;
+                margin-top: 30px;
+            }
+            .conteudo-sobre-flex-item-paragrafo{
+                text-align: center;
+                color: #fff;
+                margin: 30px;
+                font-size: larger;
+            }
+
+.conteudo-servicos
+    .conteudo-servicos-titulo{
+        text-align: center;
+        color: #ec850b;
+        margin-bottom: 20px;
+    }
+    .conteudo-servicos-lista{
+        display: flex;
+        gap: 20px;
+    }
+        .conteudo-servicos-lista-item{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            border: #006154 solid 6px;
+            border-radius: 20px;
+            transition: 0.5s;
+        }
+            .conteudo-servicos-lista-item:hover{
+                scale: 105%;
+                transition: 0.2s;
+            }
+        .conteudo-servicos-lista-item-texto{
+            color: #006154;
+            text-align: center;
+            margin: 20px;
+            font-weight: 700;
+        }
+        .conteudo-servicos-lista-item-img{
+            margin: auto;
+            margin-bottom: 30px;
+            height: 128px;
+            width: 128px;
+        }
+
+.conteudo-saibamais{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+    .conteudo-saibamais-botao{
+        color: #ec850b;
+        background-color: #fff;
+        border: solid #ec850b 4px;
+        font-size: large;
+        margin: auto;
+        height: 40px;
+        width: 350px;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+    .conteudo-saibamais-botao:hover{
+        scale: 110%;
+        transition: 0.3s;
+        border-color: #FBAA49;
+        color: #FBAA49;
+    }
+    .conteudo-saibamais-botao>a{
+        color: inherit;
+    }
+
+
 
 
 
