@@ -5,6 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
 
 /*
+FONTES:
+
 font-family: 'Barlow', sans-serif;
 
 font-family: 'Sarala', sans-serif;
@@ -108,7 +110,6 @@ background-color: #00261c;
                 background-color: #FBAA49;
                 color: #fff;
                 transition: 0.3s;
-                scale: 110%
             }
             .cadastro-cadastro>a {
                 color: inherit;
@@ -191,6 +192,7 @@ background-color: #00261c;
     }
     .conteudo-secundario-paragrafo{
         color: #00261c;
+        text-align: justify;
     }
 
 .conteudo-sobre{
@@ -205,9 +207,11 @@ background-color: #00261c;
     }
         .conteudo-sobre-subtitulo{
             color: #ec850b;
+            font-size: larger;
         }
         .conteudo-sobre-paragrafo{
             margin-bottom: 20px;
+            text-align: justify;
         }
     .conteudo-sobre-flex{
         display: flex;
@@ -224,15 +228,15 @@ background-color: #00261c;
             border-radius: 20px;
         }
             .conteudo-sobre-flex-item-titulo{
-                font-size: x-large;
+                font-size: xx-large;
                 color: #fff;
-                margin-top: 30px;
+                margin-top: 20px;
             }
             .conteudo-sobre-flex-item-paragrafo{
                 text-align: center;
                 color: #fff;
                 margin: 30px;
-                font-size: larger;
+                font-size: large;
             }
 
 .conteudo-servicos
@@ -240,6 +244,7 @@ background-color: #00261c;
         text-align: center;
         color: #ec850b;
         margin-bottom: 20px;
+        font-size: xx-large;
     }
     .conteudo-servicos-lista{
         display: flex;
