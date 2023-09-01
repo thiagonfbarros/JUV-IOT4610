@@ -19,7 +19,11 @@ text-decoration: none;
 
 body {
 font-size: 100%;
+background-color: #00261c;
 }
+
+
+/*CABECALHO*/
 
 .cabecalho {
     display:flex;
@@ -30,6 +34,9 @@ font-size: 100%;
     background-color: #00261c;
     border-bottom: 4px solid #ec850b;
 }
+    
+/*LOGO NO CABECALHO*/
+    
     .cabecalho-imagem {
         display: flex;
         align-items: center;
@@ -44,6 +51,9 @@ font-size: 100%;
             font-size: 36px;
             font-weight: 700;
         }
+
+/*MENU DO CABECALHO*/
+
     .cabecalho-menu {
         display: flex;
         gap: 32px;
@@ -56,16 +66,59 @@ font-size: 100%;
             transition: 0.3s;
         }
             .cabecalho-menu-item:hover {
-                color: #ec850b;
+                color: #FBAA49;
                 transition: 0.3s;
             }
 
+/*CAMPO DE CADASTRO DO CABCALHO*/
+    
+        .cadastro {
+            display: flex;
+            flex-direction: row;
+        }
+            .cadastro>button {
+                border: none;
+                font-family: 'Sarala', sans-serif;
+                font-weight: 700;
+                font-size: medium;
+                height: 40px;
+                width: 100px;
+            }
+        .cadastro-login {
+            background: none;
+            color: #ec850b;
+            transition: 0.3s
+        }
+            .cadastro-login:hover {
+                color: #FBAA49;
+                transition:0.3s;
+                
+            }
+            .cadastro-login>a {
+                color:inherit;
+            }
+
+        .cadastro-cadastro {
+            background-color: #ec850b;
+            border-radius: 20px;
+            color: #fff;
+            transition: 0.3s;            
+        }
+            .cadastro-cadastro:hover {
+                background-color: #FBAA49;
+                color: #fff;
+                transition: 0.3s;
+                scale: 110%
+            }
+            .cadastro-cadastro>a {
+                color: inherit;
+            }
 
 
            
     .conteudo-principal {
        
-        background: linear-gradient( 180deg, #00261c, #074d3a);
+        background: linear-gradient( 180deg, #00261c, #006154);
 
     }
         .conteudo-principal-conteiner{
@@ -94,15 +147,108 @@ font-size: 100%;
                     color: #fff;
 
                 }
+                .conteudo-principal-escrito-botao {
+                    background-color: #ec850b;
+                    border: none;
+                    margin: auto;
+                    border-radius: 30px;
+                    color:#fff;
+                    font-family: 'Sarala', sans-serif;
+                    font-size: xx-large;
+                    font-weight: 700;
+                    width: 450px;
+                    height: 60px;
+                    transition: 0.3s;
+                }
+                .conteudo-principal-escrito-botao:hover {
+                    background-color: #FBAA49;
+                    scale: 110%;
+                    transition: 0.3s;
+                }
             .conteudo-principal-conteiner>img {
                 margin: 32px;
             }
 
 
+.conteudo-container{
+    background-color: #fff;
+    
+}
+
 .conteudo {
     width: 1000px;
     margin: auto;
-    margin-bottom: 60px;
-
 }
+
+
+
+.rodape{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    background-color: #00261c;
+    border-top: 4px solid #ec850b;
+}
+    .rodape-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 1200px;
+        margin: auto;
+        align-items: center;
+        gap: 100px;
+    }
+        .contato {
+            display: flex;
+            flex-direction: column;
+        }
+            .contato-titulo {
+                font-family: 'Sarala', sans-serif;
+                font-weight: 700;
+                font-size: xx-large;
+                color: #ec850b;
+            }
+            .contato-paragrafo {
+                font-family: 'Sarala', sans-serif;
+                font-size: medium;
+                color: #fff;
+                margin-top: 20px;
+                margin-bottom: 60px;
+            }
+            .contato-botao{
+                background-color: #ec850b;
+                border: none;
+                width: 200px;
+                height: 40px;
+                border-radius:20px;
+                font-family: 'Sarala', sans-serif;
+                font-size: x-large;
+                font-weight: 400;
+                color: #fff;
+                transition: 0.3s;
+            }
+                .contato-botao:hover {
+                    color: #fff;
+                    background-color: #FBAA49;
+                    transition:0.3s;
+                    scale: 110%;
+                }
+                .contato-botao>a {
+                    color: inherit;
+                }
+
+    .rodape-divisoria {
+        height: 20px;
+        border-bottom: 1px solid #006154;
+    }
+
+    .rodape-paragrafo{
+        display: flex;
+        font-family: 'Sarala', sans-serif;
+        font-size: small;
+        color: #fff;
+        justify-content: center;
+        margin: 20px;
+    }
             
